@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\data.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\testWeights.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\weighted_mm_kmeans.py" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Python.Included" Version="3.7.3.13" />
+  </ItemGroup>
+
+</Project>
